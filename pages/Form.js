@@ -2,18 +2,18 @@ import React from 'react';
 import { useEffect } from 'react';
 
 export default function Form() {
-    useEffect(() => {
-      const forms = document.querySelectorAll('form.gform');
-      forms.forEach((form) => {
-        form.addEventListener('submit', handleFormSubmit);
-      });
+    // useEffect(() => {
+    //   const forms = document.querySelectorAll('form.gform');
+    //   forms.forEach((form) => {
+    //     form.addEventListener('submit', handleFormSubmit);
+    //   });
   
-      return () => {
-        forms.forEach((form) => {
-          form.removeEventListener('submit', handleFormSubmit);
-        });
-      };
-    }, []);
+    //   return () => {
+    //     forms.forEach((form) => {
+    //       form.removeEventListener('submit', handleFormSubmit);
+    //     });
+    //   };
+    // }, []);
   
     function getFormData(form) {
         const elements = form.elements;
