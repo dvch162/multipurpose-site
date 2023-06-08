@@ -16,12 +16,10 @@ export default function AboutSection() {
             <div className="content">
               <h2>Lorem ipsum dolor sit amet, consectetur adipiscing</h2>
               <h3>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
-
-              <ul>
                 <p><Image src={checkmark} alt='checkmark sign' width={19} height={19} /> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <p><Image src={checkmark} alt='checkmark sign' width={19} height={19} /> Duis aute irure dolor in reprehenderit in voluptate velit.</p>
                 <p><Image src={checkmark} alt='checkmark sign' width={19} height={19} /> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</p>
-              </ul>
+              
             </div>
           </div>
         </div>

@@ -14,9 +14,9 @@ export default function Intro() {
   //   setCurrentImageIndex((prevIndex) => (prevIndex === 0 ? images.length - 1 : prevIndex - 1));
   // };
 
-  // const handleClickNext = () => {
-  //   setCurrentImageIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
-  // };
+  const handleClickNext = () => {
+    setCurrentImageIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
+  };
 
   useEffect(() => {
     const carouselInterval = setInterval(handleClickNext, 3000);

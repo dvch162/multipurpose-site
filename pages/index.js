@@ -1,20 +1,13 @@
 import Head from 'next/head'
-//import Image from 'next/image'
-//import { Inter } from 'next/font/google'
-//import Portfolio from './Portfolio/Portfolio'
 import Header from '@/components/Header'
+import Intro from './Intro'
 import AboutSection from './AboutSection'
 import Form from './Form'
 import Services from './Services'
-// import Testimonials from './Testimonials'
+import Testimonials from './Testimonials'
 import Footer from '../components/Footer'
-import Intro from './Intro'
-// import Header from '@/components/Header'
-
-//import styles from '@/styles/Home.module.css'
 
 
-//const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
@@ -29,7 +22,7 @@ export default function Home() {
      
      
       <style jsx>{`
-      #body {
+      .body {
           background: #fff;
           color: #444;
           font-family: "Open Sans", sans-serif;
@@ -83,7 +76,7 @@ export default function Home() {
         }
 
       `}</style>
-      <body id="body">
+      
         <section id="topbar" className="d-none d-lg-block">
           <div className="container clearfix">
             <div className="contact-info float-left">
@@ -122,19 +115,18 @@ export default function Home() {
       <br />
       <br />
       <br />
-      <br />
       <AboutSection />
       <br />
 
       <Services />
       <br />
       <br />
-      {/* <Testimonials /> */}
+      <Testimonials />
       <br />
       <Form />
       <br />
       <Footer />
-      </body>
+      
     </div>
   );
 }
