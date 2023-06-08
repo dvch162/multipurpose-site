@@ -1,0 +1,83 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: grey;
+  }
+  
+  .upperLine {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid black;
+    padding: 10px;
+  }
+  
+  .lowerLine {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    padding: 10px;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .phone p {
+    margin: 0;
+  }
+  
+  .donate button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .language button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .orgName {
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .navMenu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navMenu li {
+    margin-right: 20px;
+    padding-right: 5px;
+  }
+  
+  .navMenu li:last-child {
+    margin-right: 0;
+  }
+  
+  .navMenu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
